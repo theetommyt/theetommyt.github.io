@@ -1,0 +1,87 @@
+header {
+  background-color: rgba(0,0,0, 0.85);
+  height: 100px;
+  width: 100%;
+  color: white;
+  font-family: "Monoton", cursive;
+  font-size: 80px;
+  text-align: right;
+
+}
+
+
+body {
+  background: url("http://www.wallpapersnewhd.com/wp-content/uploads/2014/11/Money-HD-Wallpaper-Free-Download-5.jpg");
+  background-size:   cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+section {
+  font-family: "Lobster", cursive;
+  font-size: 28;
+  text-align: center;
+
+}
+
+#world {
+
+  height:100px;
+
+}
+
+ol {
+  font-family: "Lobster", cursive;
+  font-size: 20;
+  text-align: left;
+
+}
+
+#col1{
+
+height: 500;
+width: 18%;
+float: left;
+background-color: rgba(255,255,0, 0.7);
+margin: 8px;
+
+}
+
+#col2{
+
+  height: 500;
+  width: 78%;
+  float: left;
+  background-color: rgba(255,255,255, 0.83);
+  margin: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lobster", cursive;
+  font-size: 40;
+
+}
+
+#pimpCup {
+
+  height: 100px;
+  align: middle;
+
+}
+
+
+footer {
+
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0,0,0, 0.85);
+  bottom: 8;
+  position: absolute;
+
+}
+
+#label{
+  float: right;
+  height: 60px;
+  padding: 10px;
+}

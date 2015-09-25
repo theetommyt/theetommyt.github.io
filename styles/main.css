@@ -1,6 +1,7 @@
 #tomPic {
-  height: 95%;
-  border-radius: 50%; }
+  width: 15%;
+  border-radius: 50%;
+  margin-top: 2px; }
 
 .container {
   padding: 2em 4em 4em;

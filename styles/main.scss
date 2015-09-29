@@ -3,10 +3,10 @@
   width: 80px;
   border-radius: 50%;
   margin: 5px;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26) 
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26)
 }
 
-.container {
+.contain {
   padding: 2em 4em 4em;
   width: 100%;
   margin: 0 auto;
@@ -18,7 +18,7 @@
 
 .mockup {
   position: relative;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -33,4 +33,8 @@
 
 .parallax-container {
       height: 100px;
+}
+
+#footer {
+  margin-top: -1%;
 }

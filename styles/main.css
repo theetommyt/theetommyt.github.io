@@ -4,6 +4,10 @@
   margin: 5px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
 
+#kit {
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(../images/webDev.jpg);
+  background-size: cover; }
+
 .contain {
   width: 100%;
   margin: 0 auto; }

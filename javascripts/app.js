@@ -1,8 +1,12 @@
 $(document).ready(function(){
 
+
   $('.parallax').parallax();
 
   $(".button-collapse").sideNav();
+
+  $('.modal-trigger').leanModal();
+
 
 
 ///////     Smooth Scroll     ///////
@@ -19,5 +23,10 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+
+
+
+
+
 
 });

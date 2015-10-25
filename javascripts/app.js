@@ -25,7 +25,9 @@ $(document).ready(function(){
 	});
 
 
+///////     jQuery Animations     ///////
 
+$('.contain').fadeIn(3500);
 
 
 

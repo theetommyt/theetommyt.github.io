@@ -45,13 +45,25 @@
 }
 
 .parallax-container {
-      height: 300px;
+  height: 300px;
 }
 
-.card-title {
+.cardlink {
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 1px solid grey;
+}
+
+.link {
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+/*.card-title {
   background-color: rgba(0,0,0,0.75);
   width: 100%;
 }
+*/
 
 #footer {
   margin-top: -1%;

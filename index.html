@@ -2,13 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>TheeTommyT</title>
-    <link rel="stylesheet" href="styles/materialize.min.css" media="screen" title="no title" charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css" media="screen" title="no title" charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
   </head>
-  <body>
+  <body ng-app="portfolio">
     <div id="wrapper">
       <header>
         <div class="navbar-fixed" id="navStyle">
@@ -57,105 +60,27 @@
         <div class="section grey lighten-2" id="projects">
           <h4 class="light-blue-text text-darken-2 container">Projects</h4>
           <!--Row 1-->
-          <div class="row container">
-
-            <div class="col s12 m6 l6">
+          <div class="row container" ng-controller="ProjectController">
+            <div class="col s12 m6 l6" ng-repeat="project in projects">
               <div class="card medium">
-                <div class="card-image">
-                    <img src="images/reign.png">
-                    <span class="card-title">Reign</span>
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" ng-src = "{{project.image}}">
                   </div>
                   <div class="card-content">
-                    <p>A restaurant POS system CRUD app built with Sinatra and Backbone.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://reignpos.herokuapp.com/" class="waves-effect waves-light">Live on Web</a><a href="https://github.com/theetommyt/RESTaurant" class="waves-effect waves-light">GitHub Repo</a>
-                  </div>
-              </div>
-            </div>
+                    <span class="card-title activator grey-text text-darken-4">{{project.name}}<i class="medium material-icons right">info_outline</i></span>
+                    <p>{{project.tag}}</p>
 
-            <div class="col s12 m6 l6">
-              <div class="card medium">
-                <div class="card-image">
-                    <img src="images/barcrawl.jpg">
-                    <span class="card-title">Choose Your Own Disaster</span>
-                  </div>
-                  <div class="card-content">
-                    <p>A make your own bar crawl app that is full-stack Ruby on Rails.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="http://linusdisaster.herokuapp.com/" class="waves-effect waves-light">Live on Web</a><a href="https://github.com/theetommyt/BarCrawlApp" class="waves-effect waves-light">GitHub Repo</a>
-                  </div>
-                </div>
-              </div>
-
-
-          </div>
-
-          <!--Row 2-->
-          <div class="row container">
-
-              <div class="col s12 m6 l6">
-                <div class="card medium">
-                  <div class="card-image">
-                      <img src="images/shakespeare.png">
-                      <span class="card-title">Shakespeare... in Bed</span>
+                    <div class="cardlink"><span class="link"><a href="{{project.weblink}}" class="waves-effect waves-light">Live on Web</a></span>
+                    <span class="link"><a href="{{project.github}}" class="waves-effect waves-light">GitHub Repo</a></span>
                     </div>
-                    <div class="card-content">
-                      <p>A static site built in GA WDI utilizing an ajax call to an api. An design ode to the Web1.0 days.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="https://shakespeareinbed.herokuapp.com/" class="waves-effect waves-light">Live on Web</a><a href="https://github.com/theetommyt/Shakespeare-in-bed" class="waves-effect waves-light">GitHub Repo</a>
-                    </div>
-                </div>
-              </div>
 
-            <div class="col s12 m6 l6">
-              <div class="card medium">
-                <div class="card-image">
-                    <img src="images/charityRace.png">
-                    <span class="card-title">Charity Races</span>
                   </div>
-                  <div class="card-content">
-                    <p>A web app to search charity races built with the MEAN stack.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="waves-effect waves-light">Live on Web</a><a href="https://github.com/theetommyt/charity_race_app" class="waves-effect waves-light">GitHub Repo</a>
-                  </div>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- Row 3 -->
-          <div class="row container">
-
-            <div class="col s12 m6 l6">
-              <div class="card medium">
-                <div class="card-image">
-                    <img src="images/materialMountain.jpg">
-                    <span class="card-title">Portage Pre-School</span>
-                  </div>
-                  <div class="card-content">
-                    <p>A static site using Bootstrap for a non-profit preschool</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="waves-effect waves-light">Live on Web</a><a href="#" class="waves-effect waves-light">GitHub Repo</a>
-                  </div>
-              </div>
-            </div>
-
-            <div class="col s12 m6 l6">
-              <div class="card medium">
-                <div class="card-image">
-                    <img src="images/materialMountain.jpg">
-                    <span class="card-title">Web for Races</span>
-                  </div>
-                  <div class="card-content">
-                    <p>A Mean stack app providing a CMS and theme chooser for endurance events.</p>
-                  </div>
-                  <div class="card-action">
-                    <a href="#" class="waves-effect waves-light">Live on Web</a><a href="#" class="waves-effect waves-light">GitHub Repo</a>
+                  <div class="card-reveal">
+                    <span class="card-title activator grey-text text-darken-4">{{project.name}}<i class="material-icons right">more_vert</i></span>
+                      <div class="tech">
+                        <h6>Technologies Used</h6>
+                        <p>{{project.things}}</p>
+                      </div>
                   </div>
               </div>
             </div>
@@ -296,8 +221,9 @@
 
 
 <script type="text/javascript" src="javascripts/jquery.min.js"></script>
-<script type="text/javascript" src="javascripts/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+<script type="text/javascript" src="javascripts/main.js"></script>
 <script type="text/javascript" src="javascripts/app.js"></script>
-<!-- <script type="text/javascript" src="javascripts/smoothScroll.js"></script> -->
   </body>
 </html>

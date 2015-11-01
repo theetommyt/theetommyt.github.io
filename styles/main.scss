@@ -22,7 +22,6 @@
 .contain {
   width: 100%;
   margin: 0 auto;
-  display: none;
 }
 
 .macbook {
@@ -37,6 +36,7 @@
 
 .artwork {
   position: absolute;
+  display: none;
   width: 76%;
   height: 75%;
   top: 9%;

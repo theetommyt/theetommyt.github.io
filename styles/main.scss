@@ -1,3 +1,7 @@
+h6 {
+  font-size: 1.15rem;
+}
+
 .waves-effect.waves-blue .waves-ripple {
       background-color: #1976d2;
     }
@@ -19,6 +23,7 @@
   background-size: cover;
 }
 
+/* ------ Scrolling MacBook ----- */
 .contain {
   width: 100%;
   margin: 0 auto;
@@ -36,21 +41,37 @@
 
 .artwork {
   position: absolute;
+  display: none;
   width: 76%;
   height: 75%;
   top: 9%;
   left: 11.75%;
   overflow: scroll;
 }
+/* ------------------------------- */
 
 .parallax-container {
-      height: 300px;
+  height: 300px;
 }
 
-.card-title {
-  background-color: rgba(0,0,0,0.75);
-  width: 100%;
+.headline {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
+
+/* ----- Project Cards ----- */
+.cardlink {
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 1px solid grey;
+}
+
+.link {
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+/* ------------------------- */
 
 #footer {
   margin-top: -1%;

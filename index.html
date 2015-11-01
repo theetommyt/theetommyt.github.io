@@ -77,11 +77,18 @@
                     </div>
 
                   </div>
-                  <div class="card-reveal">
-                    <span class="card-title activator blue-text text-darken-1 headline ">{{project.name}}<i class="material-icons right red-text text-lighten-1">medium highlight_off</i></span>
+                  <div class="card-reveal blue darken-1">
+                    <span class="card-title activator white-text headline ">{{project.name}}<hr><i class="small material-icons right red-text text-lighten-3">highlight_off</i></span>
                       <div class="tech">
-                        <h6>Technologies Used</h6>
-                        <p class="grey-text text-darken-1">{{project.things}}</p>
+                    <br>
+                        <h6 class="grey-text text-lighten-3">Technologies Used</h6>
+                    <br>
+                        <h6 class="grey-text text-lighten-2">{{project.things}}</h6>
+                    <br>
+                    <br>
+                    <div class="cardlink"><span class="link"><a href="{{project.weblink}}" class="waves-effect waves-light  red-text text-lighten-4">Live on Web</a></span>
+                    <span class="link"><a href="{{project.github}}" class="waves-effect waves-light red-text text-lighten-4">GitHub Repo</a></span>
+                    </div>
                       </div>
                   </div>
               </div>
@@ -99,66 +106,35 @@
 
         <div class="section grey lighten-2" id="startups">
           <h4 class="light-blue-text text-darken-2 container headline">Start-Ups</h4>
-          <div class="row container">
 
-            <div class="col s12 m12 l6">
+          <div class="row container" ng-controller="StartupController">
+            <div class="col s12 m6 l6" ng-repeat="startup in startups">
               <div class="card medium">
-                <div class="card-image">
-                    <img src="images/competeGreen.jpg">
-                    <span class="card-title">Compete Green</span>
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" ng-src = "{{startup.image}}">
                   </div>
                   <div class="card-content">
-                    <span class="card-title">Compete Green</span>
-                    <p>Founder/President of an environmentally focused race company.</p>
+                    <span class="card-title activator grey-text text-darken-4 headline">{{startup.name}}<a class="btn-floating btn-large waves-effect waves-light red lighten-1 right"><i class="material-icons">add</i></a></span>
+                    <p class="grey-text text-darken-1">{{startup.title}}</p>
+                    <p class="grey-text text-darken-1">{{startup.tag}}</p>
+
+
                   </div>
-                  <div class="card-action">
-                    <!-- Modal Trigger -->
-                    <a class="waves-effect waves-light btn modal-trigger light-blue darken-2" href="#modal1"><span class="white-text">More Info</span></a>
+                  <div class="card-reveal blue darken-1">
+                    <span class="card-title activator white-text headline ">{{startup.name}}<hr><i class="small material-icons right red-text text-lighten-3">highlight_off</i></span>
+                      <div class="tech">
+                    <br>
+                    <h6 class="grey-text text-lighten-3">Mission Statement:</h6>
+                        <h6 class="grey-text text-lighten-2">{{startup.mission}}</h6>
+                    <br>
+                    <br>
+                        <h6 class="grey-text text-lighten-2">news items</h6>
+                      </div>
                   </div>
               </div>
             </div>
-
-              <!-- CompeteGreen Modal -->
-                <div id="modal1" class="modal">
-                  <div class="modal-content">
-                    <h4>Compete Green</h4>
-                    <p>A bunch of text</p>
-                  </div>
-                  <div class="modal-footer">
-                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-                  </div>
-                </div>
-
-            <div class="col s12 m12 l6">
-              <div class="card medium">
-                <div class="card-image">
-                    <img src="images/cause2compete.jpg">
-                    <span class="card-title">Cause 2 Compete</span>
-                  </div>
-                  <div class="card-content">
-                    <p>Founder/President of a community building race company.</p>
-                  </div>
-                  <div class="card-action">
-                    <!-- Modal Trigger -->
-                    <a class="waves-effect waves-light btn modal-trigger light-blue darken-2" href="#modal2"><span class="white-text">More Info</span></a>
-                  </div>
-              </div>
-            </div>
-
-            <!-- C2C Modal -->
-              <div id="modal2" class="modal">
-                <div class="modal-content">
-                  <h4>Cause 2 Compete</h4>
-                  <p>A bunch of text</p>
-                </div>
-                <div class="modal-footer">
-                  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-                </div>
-              </div>
-
           </div>
         </div>
-
 
 
         <div class="parallax-container">

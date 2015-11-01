@@ -80,3 +80,27 @@ app.controller('ProjectController', ['$scope', function($scope) {
     ]
 
 }]);
+
+app.controller("StartupController", ["$scope", function($scope){
+
+  $scope.startups =
+
+    [
+      {
+        name: "Compete Green",
+        image: "images/competeGreen.jpg",
+        title: "Founder/President",
+        tag: "",
+        mission: "Compete Green is an endurance lifestyle brand specializing in event management and eco-friendly apparel. Our mission is to enjoy healthy, endurance lifestyles while promoting sustainability and environmental awareness through our events. We strive not to just use our beautiful world, but to become a growing and symbiotic part of it."
+      },
+
+      {
+        name: "Cause 2 Compete",
+        image: "images/cause2compete.jpg",
+        title: "Founder/President",
+        tag: "",
+        mission: "Cause 2 Compete is an athletics lifestyle events company that strives to be a positive force in our communities through events, clubs, and personal interactions. With the partnerships in our communities, we deliver quality athletic activities while also contributing time, money, effort, and awareness to both social and environmental causes that improve our communities and community relationships. It is our ultimate goal to be the change we want to see in our events and our partnerships. We care about your Cause 2 Compete.",
+      }
+    ]
+
+}]);

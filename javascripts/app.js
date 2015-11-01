@@ -59,6 +59,24 @@ app.controller('ProjectController', ['$scope', function($scope) {
           things: "HTML5 - CSS3 - MaterializeCSS - NormalizeCSS - Responsive Design - JavaScript - jQuery - AngularJS - GitHub Pages - Photoshop - Illustrator"
         },
 
+        {
+          name: "Tiki Torch 5k",
+          image: "images/tiki.png",
+          tag: "A tiki themed 5k race",
+          weblink: "http://www.tiki5k.com",
+          github: "",
+          things: "WordPress, HTML5, CSS3, jQuery"
+        },
+
+        {
+          name: "Dawn of the Dunes Race",
+          image: "images/dod.png",
+          tag: "A fall beachfront marathon",
+          weblink: "http://www.dunesmarathon.com",
+          github: "",
+          things: "WordPress, HTML5, CSS3, jQuery"
+        },
+
     ]
 
 }]);

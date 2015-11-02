@@ -109,13 +109,13 @@
 
           <div class="row container" ng-controller="StartupController">
             <div class="col s12 m6 l6" ng-repeat="startup in startups">
-              <div class="card medium">
+              <div class="card large">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator" ng-src = "{{startup.image}}">
                   </div>
                   <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4 headline">{{startup.name}}<a class="btn-floating btn-large waves-effect waves-light red lighten-1 right"><i class="material-icons">add</i></a></span>
-                    <p class="grey-text text-darken-1">{{startup.title}}</p>
+                    <h6 class="grey-text text-darken-1"><em>{{startup.title}}</em></h6>
                     <p class="grey-text text-darken-1">{{startup.tag}}</p>
 
 
@@ -123,12 +123,14 @@
                   <div class="card-reveal blue darken-1">
                     <span class="card-title activator white-text headline ">{{startup.name}}<hr><i class="small material-icons right red-text text-lighten-3">highlight_off</i></span>
                       <div class="tech">
-                    <br>
                     <h6 class="grey-text text-lighten-3">Mission Statement:</h6>
-                        <h6 class="grey-text text-lighten-2">{{startup.mission}}</h6>
-                    <br>
-                    <br>
-                        <h6 class="grey-text text-lighten-2">news items</h6>
+                        <p class="grey-text text-lighten-2">{{startup.mission}}</p>
+                    <h6 class="grey-text text-lighten-2">News Highlights:</h6>
+                      <ul>
+                        <li><a href="{{startup.news1link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i>{{startup.news1}}</a></li>
+                        <li><a href="{{startup.news2link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i>{{startup.news2}}</a></li>
+                        <li><a href="{{startup.news3link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i>{{startup.news3}}</a></li>
+                      </ul>
                       </div>
                   </div>
               </div>

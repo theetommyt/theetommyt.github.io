@@ -90,16 +90,29 @@ app.controller("StartupController", ["$scope", function($scope){
         name: "Compete Green",
         image: "images/competeGreen.jpg",
         title: "Founder/President",
-        tag: "",
-        mission: "Compete Green is an endurance lifestyle brand specializing in event management and eco-friendly apparel. Our mission is to enjoy healthy, endurance lifestyles while promoting sustainability and environmental awareness through our events. We strive not to just use our beautiful world, but to become a growing and symbiotic part of it."
+        tag: "An environmentally focused endurance events company",
+        mission: "Compete Green is an endurance lifestyle brand specializing in event management and eco-friendly apparel. Our mission is to enjoy healthy, endurance lifestyles while promoting sustainability and environmental awareness through our events. We strive not to just use our beautiful world, but to become a growing and symbiotic part of it.",
+        news1: "The Green Mile - Ventury County Reporter",
+        news1link: "http://www.vcreporter.com/cms/story/detail/the_green_mile/9742/",
+        news2: "Ventura Company Runs Races on Green Turf - Ventura County Star",
+        news2link: "http://www.vcstar.com/business/running-races-on-green-turf",
+        news3: "Runners Compete in Half Marathon & 5k - Ventura County Star",
+        news3link: "http://www.vcstar.com/news/runners-compete-in-half-marathon-and-5k"
       },
 
       {
         name: "Cause 2 Compete",
         image: "images/cause2compete.jpg",
         title: "Founder/President",
-        tag: "",
-        mission: "Cause 2 Compete is an athletics lifestyle events company that strives to be a positive force in our communities through events, clubs, and personal interactions. With the partnerships in our communities, we deliver quality athletic activities while also contributing time, money, effort, and awareness to both social and environmental causes that improve our communities and community relationships. It is our ultimate goal to be the change we want to see in our events and our partnerships. We care about your Cause 2 Compete.",
+        tag: "A community focused endurance events company",
+        mission: "Cause 2 Compete is an athletic events company that strives to be a positive force in our communities through events. With partnerships, we can improve our communities and community relationships in both social and environmental causes. It is our ultimate goal to be the change we want to see in our events and our communities. We care about your Cause 2 Compete.",
+        news2: "We Run This Town Race Series Begins in Portage - NWILife.com",
+        news2link: "http://www.portagelife.com/sports/parks-club-sports/29130-we-run-this-town-race-series-begins-in-portage",
+        news1: "Gary To Host Its First Marathon On Oct. 27 - CBS Chicago",
+        news1link: "http://chicago.cbslocal.com/2013/10/16/gary-to-host-its-first-marathon-on-oct-27/",
+        news3: "Dawn of the Dunes Marathon debuts in Gary - NWI Times",
+        news3link: "http://www.nwitimes.com/sports/recreation/running/dawn-of-the-dunes-marathon-debuts-in-gary/article_b79ebe31-3b89-58c1-a2f4-4afe83773798.html"
+
       }
     ]
 

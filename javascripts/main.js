@@ -44,7 +44,7 @@ $('.carousel').slick({
   variableWidth: true,
   focusOnSelect: true,
   mobileFirst: true,
-  initialSlide: 2
+  initialSlide: 0
 });
 
 

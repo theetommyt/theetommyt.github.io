@@ -30,5 +30,22 @@ $(document).ready(function(){
 $('.artwork').fadeIn(4000);
 
 
+////////     jQuery Carousel      ///////
+
+$('.carousel').slick({
+  accessibility: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  arrows: true,
+  infinite: true,
+  speed: 1000,
+  slidesToShow: 5,
+  centerMode: true,
+  variableWidth: true,
+  focusOnSelect: true,
+  mobileFirst: true,
+  initialSlide: 2
+});
+
 
 });

@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="styles/main.css" media="screen" title="no title" charset="utf-8">
 
   </head>
@@ -127,14 +129,27 @@
                         <p class="grey-text text-lighten-2">{{startup.mission}}</p>
                     <h6 class="grey-text text-lighten-2">News Highlights:</h6>
                       <ul>
-                        <li><a href="{{startup.news1link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i>{{startup.news1}}</a></li>
-                        <li><a href="{{startup.news2link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i>{{startup.news2}}</a></li>
-                        <li><a href="{{startup.news3link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i>{{startup.news3}}</a></li>
+                        <li><a href="{{startup.news1link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i> {{startup.news1}}</a></li>
+                        <li><a href="{{startup.news2link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i> {{startup.news2}}</a></li>
+                        <li><a href="{{startup.news3link}}" class="red-text text-lighten-4"><i class="tiny material-icons">language</i> {{startup.news3}}</a></li>
                       </ul>
                       </div>
                   </div>
               </div>
             </div>
+          </div>
+          <div class="row container s12 m12 l12">
+            <h5 class="light-blue-text text-darken-2 headline">Startup Sample Work</h5>
+            <div class="carousel">
+                <div><img class="carouselImage" src="images/carousel/c2cWebsite.jpg"></div>
+                <div><img class="carouselImage" src="images/carousel/cbf5k.jpg"></div>
+                <div><img class="carouselImage" src="images/carousel/cgWebsite.jpg"></div>
+                <div><img class="carouselImage" src="images/carousel/footlooseLogo.jpg"></div>
+                <div><img class="carouselImage" src="images/carousel/tikiLogo.jpg"></div>
+                <div><img class="carouselImage" src="images/carousel/tikiPoster.jpg"></div>
+                <div><img class="carouselImage" src="images/carousel/twistedPoster.jpg"></div>
+            </div>
+
           </div>
         </div>
 
@@ -201,6 +216,10 @@
 
 
 <script type="text/javascript" src="javascripts/jquery.min.js"></script>
+
+<!--     jQuery Carousel     -->
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
 <script type="text/javascript" src="javascripts/main.js"></script>

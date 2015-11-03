@@ -1,11 +1,15 @@
 $(document).ready(function(){
 
 
+///////     MaterializeCSS     ///////
+
   $('.parallax').parallax();
 
   $(".button-collapse").sideNav();
 
   $('.modal-trigger').leanModal();
+
+  $('.materialboxed').materialbox();
 
 
 

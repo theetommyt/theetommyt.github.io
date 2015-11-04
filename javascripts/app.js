@@ -9,7 +9,7 @@ app.controller('ProjectController', ['$scope', function($scope) {
           name: "Reign",
           image: "images/reign.png",
           tag: "A Seattle themed restaurant POS system",
-          weblink: "https://reignpos.herokuapp.com/",
+          weblink: "https://reignrest.herokuapp.com/",
           github: "https://github.com/theetommyt/RESTaurant",
           things: "HTML5 - CSS3 - JavaScript - jQuery - BackboneJS - UnderscoreJS - Ruby - Sinatra - Authenication - PostgreSQL - Heroku - Photoshop"
         },

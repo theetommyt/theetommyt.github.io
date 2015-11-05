@@ -78,8 +78,9 @@ h6 {
   margin-right: 10px;
 }
 
-#add:hover {
+.spin:hover {
   transform:rotate(180deg);
+  box-shadow: none;
 }
 
 

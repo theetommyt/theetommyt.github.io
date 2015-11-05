@@ -59,8 +59,9 @@ h6 {
   text-transform: uppercase;
   margin-right: 10px; }
 
-#add:hover {
-  transform: rotate(180deg); }
+.spin:hover {
+  transform: rotate(180deg);
+  box-shadow: none; }
 
 /* ------------------------- */
 #footer {

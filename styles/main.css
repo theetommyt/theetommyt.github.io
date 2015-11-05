@@ -59,7 +59,7 @@ h6 {
   text-transform: uppercase;
   margin-right: 10px; }
 
-.spin:hover {
+.card:hover .spin {
   transform: rotate(180deg);
   box-shadow: none; }
 

@@ -45,7 +45,7 @@ app.controller('ProjectController', ['$scope', function($scope) {
           name: "Portage Preschool",
           image: "images/portagePre.jpg",
           tag: "Local preschool info site",
-          weblink: "http://www.ptgpreschool.com",
+          weblink: "#",
           github: "https://github.com/theetommyt/portagePreschool",
           things: "HTML5 - CSS3 - BootstrapCSS - NormalizeCSS - Responsive Design - JavaScript - jQuery - GitHub - Photoshop - Illustrator"
         },

@@ -9,8 +9,8 @@ app.controller('ProjectController', ['$scope', function($scope) {
           name: "Trail9 Marketing Site",
           image: "images/trail9.jpg",
           tag: "A sanitized version of an enterprise marketing site",
-          weblink: "https://theetommyt.com/trail9/",
-          github: "https://github.com/theetommyt/trail9",
+          weblink: "http://aws-website-trail-9r90g.s3-website-us-east-1.amazonaws.com/",
+          github: "http://github.com/theetommyt/trail9",
           things: "HTML5 - CSS3 - Sass - JavaScript - jQuery - Bootstrap 4 - Jekyll - Liquid - NodeJS - Gulp"
         },
 

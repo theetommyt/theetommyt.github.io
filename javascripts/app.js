@@ -7,7 +7,7 @@ app.controller('ProjectController', ['$scope', function($scope) {
     [
         {
           name: "Trail9 Marketing Site",
-          image: "images/trail9.png",
+          image: "images/trail9.jpg",
           tag: "A sanitized version of an enterprise marketing site",
           weblink: "https://theetommyt.com/trail9/",
           github: "https://github.com/theetommyt/trail9",
@@ -16,7 +16,7 @@ app.controller('ProjectController', ['$scope', function($scope) {
 
         {
           name: "Apollo UI",
-          image: "images/apolloUI.png",
+          image: "images/apolloUI.jpg",
           tag: "QuintilesIMS UI Developer Resources",
           weblink: "https://design.imshealth.com/",
           github: "",

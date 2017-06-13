@@ -6,12 +6,30 @@ app.controller('ProjectController', ['$scope', function($scope) {
   $scope.projects =
     [
         {
+          name: "Trail9 Marketing Site",
+          image: "images/trail9.png",
+          tag: "A sanitized version of an enterprise marketing site",
+          weblink: "https://theetommyt.com/trail9/",
+          github: "https://github.com/theetommyt/trail9",
+          things: "HTML5 - CSS3 - Sass - JavaScript - jQuery - Bootstrap 4 - Jekyll - Liquid - NodeJS - Gulp"
+        },
+
+        {
+          name: "Apollo UI",
+          image: "images/apolloUI.png",
+          tag: "QuintilesIMS UI Developer Resources",
+          weblink: "https://design.imshealth.com/",
+          github: "",
+          things: "HTML5 - CSS3 - Sass - JavaScript - jQuery - Bootstrap 4 - Jekyll - Liquid - NodeJS - Gulp - Continuous Integration"
+        },
+
+        {
           name: "Reign",
           image: "images/reign.png",
           tag: "A Seattle themed restaurant POS system",
           weblink: "https://reignrest.herokuapp.com/",
           github: "https://github.com/theetommyt/RESTaurant",
-          things: "HTML5 - CSS3 - JavaScript - jQuery - BackboneJS - UnderscoreJS - Ruby - Sinatra - Authenication - PostgreSQL - Heroku - Photoshop"
+          things: "HTML5 - CSS3 - JavaScript - jQuery - BackboneJS - UnderscoreJS - Ruby - Sinatra - Authentication - PostgreSQL - Heroku - Photoshop"
         },
 
         {
@@ -20,7 +38,7 @@ app.controller('ProjectController', ['$scope', function($scope) {
           tag: "Make your own bar crawl with chat",
           weblink: "http://linusdisaster.herokuapp.com/",
           github: "https://github.com/theetommyt/BarCrawlApp",
-          things: "HTML5 - CSS3 - SkeletonCSS - NormalizeCSS - Responsive Design - JavaScript - jQuery - Ruby - Ruby on Rails - Authenication - Google Maps API - Google Places API - PostgreSQL - Heroku - Photoshop - Illustrator"
+          things: "HTML5 - CSS3 - SkeletonCSS - NormalizeCSS - Responsive Design - JavaScript - jQuery - Ruby - Ruby on Rails - Authentication - Google Maps API - Google Places API - PostgreSQL - Heroku - Photoshop - Illustrator"
         },
 
         {
@@ -57,25 +75,7 @@ app.controller('ProjectController', ['$scope', function($scope) {
           weblink: "http://www.theetommyt.com",
           github: "https://github.com/theetommyt/portagePreschool",
           things: "HTML5 - CSS3 - MaterializeCSS - NormalizeCSS - Responsive Design - JavaScript - jQuery - AngularJS - GitHub Pages - Photoshop - Illustrator"
-        },
-
-        {
-          name: "Tiki Torch 5k",
-          image: "images/tiki.png",
-          tag: "A tiki themed 5k race",
-          weblink: "http://www.tiki5k.com",
-          github: "",
-          things: "WordPress, HTML5, CSS3, jQuery"
-        },
-
-        {
-          name: "Dawn of the Dunes",
-          image: "images/dod.png",
-          tag: "A fall beachfront marathon",
-          weblink: "http://www.dunesmarathon.com",
-          github: "",
-          things: "WordPress, HTML5, CSS3, jQuery"
-        },
+        }
 
     ]
 

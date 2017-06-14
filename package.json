@@ -1,0 +1,22 @@
+{
+  "name": "theetommyt.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theetommyt/theetommyt.github.io.git"
+  },
+  "author": "Tom Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theetommyt/theetommyt.github.io/issues"
+  },
+  "homepage": "https://github.com/theetommyt/theetommyt.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12"
+  }
+}
